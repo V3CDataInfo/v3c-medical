@@ -87,19 +87,60 @@ textarea {
     -webkit-appearance: none;
     -moz-appearance: none;
  }
- select,
- textarea {
-     margin: 0;
-     padding: 0;
-     border: 1px solid #ddd;
-     background: #fff;
-     font-size: 15px;
-     color: #000;
-     padding: 4px;
-     border-radius: 3px;
-     font-family: 'Exo 2', sans-serif;
-     resize: none
- }
+.common_action_button_center {
+    position: fixed;
+    z-index: 999;
+    right: 50px;
+    top: 50%;
+    transform-origin: top right;
+    transform: rotate(-90deg) translatex(50%);
+    -webkit-transform: rotate(-90deg) translatex(50%);
+    -moz-transform: rotate(-90deg) translatex(50%);
+    -ms-transform: rotate(-90deg) translatex(50%);
+    -o-transform: rotate(-90deg) translatex(50%);
+    gap: 10px;
+    display: flex;
+}
+.enq-now-btn img {
+    max-width: initial;
+}
+select, textarea {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ddd;
+    background: #fff;
+    font-size: 15px;
+    color: #000;
+    padding: 4px;
+    border-radius: 3px;
+    font-family: 'Exo 2', sans-serif;
+    resize: none;
+}
+.cubex-btn {
+    padding: 16.5px 13px;
+    background-color: #609afe;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    top: auto;
+    right: 0;
+    border-radius: 4px 4px 0 0;
+    backface-visibility: hidden;
+    transform-origin: right bottom;
+    transition: all .5s ease 0s;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -ms-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.cubex-btn:hover {
+    background-color: #0e48ac;
+    color: #fff;
+}
   a:focus {
      outline: 0
  }

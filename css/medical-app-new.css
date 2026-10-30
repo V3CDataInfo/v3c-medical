@@ -9,6 +9,9 @@
     --theme-hover: #1e58cc;
     --theme-light: #f1f5ff;
 }
+a {
+    text-decoration: none;
+}
 abbr,
  acronym,
  address,
@@ -1918,7 +1921,7 @@ ul.services-tabs li img {
     background: #fff;
     margin: 0;
 }
-.faq_list li strong {
+.faq_list li .question {
     font-size: 20px;
     line-height: normal;
     display: block;
